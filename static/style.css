@@ -1,0 +1,51 @@
+body {
+
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body > header{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    color:aliceblue;
+    padding: 16px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body > header > nav {
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body > a {
+    color: white
+
+}
+
+form {
+    display: flex;
+    background-color: lightskyblue;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+section {
+    background-color: dodgerblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: white;
+    font-size: 70%;
+}
