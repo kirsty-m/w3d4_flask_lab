@@ -5,3 +5,5 @@ class Event():
         self.guest_number = guest_number
         self.room = room
         self.description = description
+
+    
